@@ -1,0 +1,14 @@
+.header{
+  width: 100vw;
+  height: 10vx;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer{
+  width: 100vw;
+  height: 85vx;
+  background-color:gainsboro;
+  color:black;
+  text-align: center;
+}

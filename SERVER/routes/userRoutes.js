@@ -1,7 +1,7 @@
 const express=require("express");
 const usercontroller=require("../controller/userController");
 const router=express.Router();
-router.get("/user",usercontroller.getAllUsers);
+router.get("/users",usercontroller.getAllUsers);
 router.get("/user/:email",usercontroller.getUser);
 router.post("/adduser",usercontroller.createUser);
 router.put("/updateuser/:email",usercontroller.editUser);
